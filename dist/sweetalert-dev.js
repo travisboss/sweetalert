@@ -932,7 +932,7 @@ var injectedHTML =
 "<div class=\"sweet-overlay\" tabIndex=\"-1\"></div>" +
 
 // Modal
-"<div class=\"sweet-alert\" role=\"dialog\" aria-modal=\"true\">" +
+"<div class=\"sweet-alert\" role=\"dialog\" aria-modal=\"true\" aria-describedby=\"modalText\">" +
 
 // Error icon
 "<div class=\"sa-icon sa-error\">\n      <span class=\"sa-x-mark\">\n        <span class=\"sa-line sa-left\"></span>\n        <span class=\"sa-line sa-right\"></span>\n      </span>\n    </div>" +
@@ -947,7 +947,7 @@ var injectedHTML =
 "<div class=\"sa-icon sa-success\">\n      <span class=\"sa-line sa-tip\"></span>\n      <span class=\"sa-line sa-long\"></span>\n\n      <div class=\"sa-placeholder\"></div>\n      <div class=\"sa-fix\"></div>\n    </div>" + "<div class=\"sa-icon sa-custom\"></div>" +
 
 // Title, text and input
-"<h2>Title</h2>\n    <p>Text</p>\n    <fieldset>\n      <input type=\"text\" tabIndex=\"3\" />\n      <div class=\"sa-input-error\"></div>\n    </fieldset>" +
+"<h2>Title</h2>\n    <p id=\"modalText\">Text</p>\n    <fieldset>\n      <input type=\"text\" tabIndex=\"3\" />\n      <div class=\"sa-input-error\"></div>\n    </fieldset>" +
 
 // Input errors
 "<div class=\"sa-error-container\">\n      <div class=\"icon\">!</div>\n      <p>Not valid!</p>\n    </div>" +
