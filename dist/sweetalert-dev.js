@@ -932,7 +932,7 @@ var injectedHTML =
 "<div class=\"sweet-overlay\" tabIndex=\"-1\"></div>" +
 
 // Modal
-"<div class=\"sweet-alert\">" +
+"<div class=\"sweet-alert\" role=\"dialog\" aria-modal=\"true\">" +
 
 // Error icon
 "<div class=\"sa-icon sa-error\">\n      <span class=\"sa-x-mark\">\n        <span class=\"sa-line sa-left\"></span>\n        <span class=\"sa-line sa-right\"></span>\n      </span>\n    </div>" +
